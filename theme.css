@@ -1,28 +1,10 @@
-/**
- * @name Slook
- * @author Leeprky
- * @version 3.2
- * @description Comfy Chat Theme
- * @source https://github.com/leeprky/Slook-Remastered
- * @updateUrl https://github.com/leeprky/Slook-Remastered/blob/main/source/support/betterdiscord/slook-bd.theme.css
- * @authorId 224524143482241035
- * @invite Ff3rqAYB89
- * @donate https://www.paypal.com/paypalme/leeparkinson22
- * @website https://leeprky.github.io/
-*/
-/*  ------------------------------------------
-             SLOOK V3 (BetterDiscord)
-                      v3.2
-                - leeprky#2063 -
-    ------------------------------------------  */
 
-/* SLOOK Source Code */
+
+
 @import url(https://leeprky.github.io/themes/slook/slook-source.css);
 @import url('https://leeprky.github.io/snippits/coolsniipitsforthemes.css');
 
-/* Other Imports */
-/* Visuals */
-/* @import url(https://raw.githack.com/v-briese/Channel-Icons/main/channelicons.theme.css); */
+
  @import url(https://raw.githack.com/snappercord/Settings-Icons/main/settingsicons.css); 
 
 @import url(https://leeprky.github.io/themes/BaseStuff/alt-color.css);
@@ -36,44 +18,6 @@
 @import "https://leeprky.github.io/themes/Ovel/imports/07-extra/version.css";
 :root {--version: "v3.0.0"; --build: "390"; --outdated_slook-390: none;}
 
-/*  ----------------------------
-         GLASSCORD SUPPORT
-    ----------------------------  */
-
-/*
-  
-:root{
-	--glasscord-win-blur: blurbehind;
-	--glasscord-macos-vibrancy: fullscreen-ui;
-	--glasscord-linux-blur: true;
-	--glasscord-titlebar: osx;  
-}
-body{
-    background-color: transparent;
-}
-#app-mount{
-	background-color: rgba(0, 0, 0, 0.301);
-	border-radius: 10px 10px 10px 10px; 
-	border-color: transparent;
-}
-#app-mount .guilds-1SWlCJ .scrollerBase-289Jih {
-  background: transparent;
-}
-.theme-dark {
-	--background-primary: #0c0c0c00!important;
-	--background-secondary: #0a0a0a00!important;
-	--background-tertiary: #0c0c0c73!important;
-};
-#app-mount .guilds-1SWlCJ, .base-3dtUhz {
-  top: calc(var(--server-container) + -32px) !important;
-}
-.platform-osx .container-1r6BKw {
-  -webkit-app-region: none;
-}
-#app-mount .app-1q1i1E .base-3dtUhz {
-  margin-top: 32px;
-}
-.panels-j1Uci_ {
   background-color: transparent;
 }
 .scrollableContainer-2NUZem {
@@ -82,20 +26,6 @@ body{
 .contentRegionScroller-26nc1e, .contentRegion-3nDuYy, .standardSidebarView-3F1I7i, .sidebarRegionScroller-3MXcoP {
   background: rgba(22, 22, 22, 0.596);
 }
-
-/*  ----------------------------
-       GLASSCORD SUPPORT END
-    ----------------------------  */
-
-/*  ------------------------------------------
-         SLOOK Customisable Configuration
-                    v3.0
-               -leeprky#2063-
-    ------------------------------------------  */
-
-/*
-USRBG Profile Modals by Tropix126.
-=========================================== */
 
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
@@ -154,18 +84,18 @@ USRBG Popouts by Tropix126.
 =========================================== */
 
 :root {
-    --rs-small-spacing: 2px;  /* Spacing between avatar and status | MUST end in px */
-    --rs-large-spacing: 3px;  /* Spacing between avatar and status for user popouts & modals/profiles | MUST end in px */
-    --rs-width: 2px;  /* Width/thickness of status border */
-    --rs-avatar-shape: 50%;  /* 50% for round - 0% for square */
-    --rs-online-color: #43b581;  /* Colour for online status */
-    --rs-idle-color: #faa61a;  /* Colour for idle status */
-    --rs-dnd-color: #f04747;  /* Colour for dnd status */
-    --rs-offline-color: #636b75;  /* Colour for offline status */
-    --rs-streaming-color: #643da7;  /* Colour for streaming status */
-    --rs-invisible-color: #747f8d;  /* Colour for invisible status - Note: this will only show for your own invisibility */
-    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+    --rs-small-spacing: 2px;  
+    --rs-large-spacing: 3px;  
+    --rs-width: 2px;  
+    --rs-avatar-shape: 50%; 
+    --rs-online-color: #43b581;  
+    --rs-idle-color: #faa61a;  
+    --rs-dnd-color: #f04747;  
+    --rs-offline-color: #636b75;  
+    --rs-streaming-color: #643da7;  
+    --rs-invisible-color: #747f8d;  
+    --rs-phone-visible: block; 
+    --rs-phone-color: var(--rs-online-color); 
   }
 
   .wordmark-2iDDfm:after{content:var(--watermark-text);font-size:20px;font-weight:700;position:absolute;width:4000px;top:7px;color:var(--background-accent);margin-left:var(--watermark-text-left);font-family:Discord}
@@ -192,7 +122,7 @@ USRBG Popouts by Tropix126.
     height: 18px;
     margin-bottom: var(--titlebar-bottom);
 }
-/* SLOOK Dark */
+
 .theme-dark {
 
   --modal-playing-background-light: url(https://imgur.com/GZyPIBZ.jpg);
@@ -203,23 +133,23 @@ USRBG Popouts by Tropix126.
   --expanded-playing-background-dark: url(https://imgur.com/L0Iih63.jpg);
   --call-background-dark: url(https://imgur.com/L0Iih63.jpg);
 
-  /* Lode Specific */
+ 
 --bd-color: #285651;
 --bd-color-hover: #224945;
---alt-color: 40, 86, 81; /* RGB */
---alt-color2: #285651; /* HEX */
---alt-color3: 171; /* HSL */
+--alt-color: 40, 86, 81; 
+--alt-color2: #285651; 
+--alt-color3: 171; 
 --new-message-pill: var(--alt-color2);
 
-  /* Keeping Consistancy With Discord */ 
+  
   --serverlist-background: var(--background-tertiary);
   --memberlist-background: #1D1F22;
   --win-titlebar: var(--background-tertiary);
 
-/* Other */
---scrollbars: none; /* none or unset */
 
-/* Watermark */
+--scrollbars: none; 
+
+
 --watermark-text: "SLOOK";
 --watermark-version: "";
 --watermark-text-top: 6px;
@@ -294,7 +224,7 @@ USRBG Popouts by Tropix126.
 --scrollbar-auto-track: rgba(56, 168, 151, 0.363);
 --scrollbar-auto-scrollbar-color-thumb: rgba(56, 168, 151, 0.384);
 
-/* Box Shadow On Floating Elements Colours */
+
 --elevation-stroke: 0 0 0 1px rgba(22, 24, 26, 0.329);
 --elevation-low: 0 1px 0 rgba(22, 25, 26, 0.329);
 --elevation-medium: 0 4px 4px rgba(22, 25, 26, 0.329);
@@ -412,27 +342,12 @@ USRBG Popouts by Tropix126.
 /* MemberList Scroller */
 .platform-win .scroller-1Bvpku {padding-top: 16px;}
 
-/*  ----------------------------------------------------
-                  Optional Features
-        Add A "/*" On The Lines Below The Comments
-                  To Disable Them
-    ----------------------------------------------------  */
 
-    /* Center Server List */
-/* OPTIONAL SERVER LIST
-#app-mount .wrapper-3NnKdC.guilds-1SWlCJ .scroller-1Bvpku {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-/*
-/* SLOOK FONT */
 :root {
-  --discord-font: 'Discord'; /* Delete For Regular Font */
+  --discord-font: 'Discord'; 
 }
 
-/* Better Looking New Messages Pill By Leeprky#2063 */
+
 .unreadPill-2HyYtt {
   color: rgb(252, 248, 248);
   background-color:var(--new-message-pill);
@@ -442,7 +357,7 @@ USRBG Popouts by Tropix126.
   margin-bottom: 9px;
   margin-left: -10px;
   position: static;
-  font-family: "Discord"; /* - DISCORD USERNAME FONT */
+  font-family: "Discord"; 
   padding-left: 3px;
 }
 .divider-JfaTT5 {
@@ -461,14 +376,14 @@ USRBG Popouts by Tropix126.
 }
 .theme-dark .content-1o0f9g {
   color: #e7dddd;
-  font-family: "Discord"; /* - DISCORD USERNAME FONT */
+  font-family: "Discord"; 
   margin-top: -7px;
   font-size: 0.60rem;
   background-color: var(--new-message-pill);
 }
 .theme-light .content-1o0f9g {
   color: #1b1a1a;
-  font-family: "Discord"; /* - DISCORD USERNAME FONT */
+  font-family: "Discord";
   margin-top: 00rem;
   font-size: 0.60rem;
   background-color: var(--new-message-pill);
@@ -482,32 +397,32 @@ USRBG Popouts by Tropix126.
 /* BoldText */
 .headerText-2F0828 {
   font-size: 18px; 
-  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+  font-family:'Discord';  
 }
 .header-2RyJ0Y {
   font-size: 16px;
-  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+  font-family:'Discord'; 
 }
 .title-3sZWYQ {
   font-size: 15px;
-  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+  font-family:'Discord';  
 }
 .container-2ax-kl {
   font-size: 15px;
-  font-family:'Discord';  /* - DISCORD USERNAME FONT */
+  font-family:'Discord';  
 }
 /* PictureInPicture */
 .header-2Zv56X {
   font-size: 18px;
   color:#eaedf0; 
-  font-family: 'Discord' /* - DISCORD USERNAME FONT */
+  font-family: 'Discord'
 } 
 .description-22pzKs {
   color: #c7cacc;
   font-size: 11px
 }
 
-/* Bubble Member List OPTIONAL*/
+
 
 :root {
   --hover-animation-speed: 0.35s;
@@ -569,7 +484,7 @@ background-color: rgba(216, 27, 27, 0);
   color: var(--header-primary);
   display: inline;
   margin-bottom:  15px;
-  margin-left: 0px;  /* - DISCORD USERNAME FONT
+  margin-left: 0px;  
   font-family:'Discord'; 
   /* /* */
 }
@@ -606,11 +521,9 @@ background-color: rgba(216, 27, 27, 0);
 }
 
 
-/* --- */
-/* Optionals End */
-/* ----- */
 
-/* BETTERDISCORD ADDITONS */
+
+
 .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0);
 }
@@ -631,8 +544,3 @@ background-color: rgba(216, 27, 27, 0);
   background-color: var(--bd-color-hover); 
 }
 
-/*  ----------------------------------------------------
-         ANYTHING ELSE YOU WANT TO ADD GOES BELOW
-               THIS IS FOR DEBUGGING ETC
-                    v3.0 (Slook)
-    ----------------------------------------------------  */
